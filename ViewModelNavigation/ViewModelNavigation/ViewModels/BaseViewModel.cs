@@ -8,6 +8,8 @@ using Xamarin.Forms;
 
 namespace ViewModelNavigation.ViewModels
 {
+
+    // Canvis proba github.
     public abstract class BaseViewModel : IViewModel, INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
