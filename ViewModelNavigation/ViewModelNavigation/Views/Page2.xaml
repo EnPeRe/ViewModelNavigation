@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<d:BasePage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="clr-namespace:ViewModelNavigation.Views"
+             x:Class="ViewModelNavigation.Views.Page2"
+             BackButtonCommand="{Binding BackCommand}"
+             Title="Page2">
+
+
+    <Label Text="{Binding PageName}" VerticalOptions="Center" HorizontalOptions="Center" />
+
+    <Button Text="Back" Command="{Binding BackCommand}"/>
+
+</d:BasePage>
